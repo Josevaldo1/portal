@@ -264,6 +264,10 @@
                </div>
                 <div class="sidebar-menu-content">
                     <ul class="nav nav-sidebar-menu sidebar-toggle-view">
+                        <li class="nav-item">
+                            <a href="{{route('site.home')}}" class="nav-link"><i
+                                    class="fas fa-globe-americas"></i><span>Site</span></a>
+                        </li>
                         <li class="nav-item sidebar-nav-item">
                             <a href="#" class="nav-link"><i class="flaticon-dashboard"></i><span>Dashboard</span></a>
                             <ul class="nav sub-group-menu">
@@ -394,10 +398,7 @@
                             </ul>
                         </li>
 
-                        <li class="nav-item">
-                            <a href="all-subject.html" class="nav-link"><i
-                                    class="flaticon-open-book"></i><span>Subject</span></a>
-                        </li>
+
                         <li class="nav-item">
                             <a href="class-routine.html" class="nav-link"><i class="flaticon-calendar"></i><span>Class
                                     Routine</span></a>
